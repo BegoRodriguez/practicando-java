@@ -52,10 +52,11 @@ class TiposPrimitivos {
             
 
             double d = Double.MAX_VALUE;
-            double o = d + 1; // Los números en coma flotante se desbordan devolviendo el valor máximo
-            System.out.println("Valor maximo double: " + d + " Operación desbordada " + o);  // La variable 'o' será el valor máximo
+            double o = d + 1; // Los números en coma flotante se pueden desbordar devolviendo un redondeo 
+            System.out.println("Valor maximo double: " + d + " Operación desbordada redondeada " + o);  // La variable 'o' será el valor máximo
 
-           
+            double o2 = d * 1000; // Los números en coma flotante se desbordan devolviendo Infinito
+            System.out.println("Valor maximo double: " + d + " Operación desbordada " + o2);  // La variable 'o' será el valor máximo
 
         }
     }
