@@ -1,3 +1,4 @@
+package ejercicios;
 public class primitivos {
     public static void main(String[] args){
 
